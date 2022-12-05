@@ -59,7 +59,7 @@ function setup() {
   gameOver.visible = false;
   restart.visible = false;
   
-  invisibleGround = createSprite(200,190,width-400,hieght-10);
+  invisibleGround = createSprite(200,190,windowWidth-400,windowHieght-10);
   invisibleGround.visible = false;
   
   cloudsGroup = new Group();
